@@ -3,6 +3,9 @@ buildscript {
     repositories {
         google()
         mavenCentral()
+        maven {
+            url "https://gitlab.com/api/v4/projects/50747855/packages/maven"
+        }
     }
 
     dependencies {
@@ -15,6 +18,9 @@ allprojects {
     repositories {
         google()
         mavenCentral()
+         maven {
+            url "https://gitlab.com/api/v4/projects/50747855/packages/maven"
+        }
     }
 }
 
