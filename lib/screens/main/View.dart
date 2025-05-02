@@ -48,7 +48,7 @@ class _MainSreenState extends ViewWidget<MainScreen, MainActions> {
         ),
         unselectedLabelStyle: const TextStyle(fontSize: 16),
         items: const [
-        
+         
           BottomNavigationBarItem(
             icon: Icon(Icons.book),
             label: "Danh bạ",

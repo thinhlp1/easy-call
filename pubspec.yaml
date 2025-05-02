@@ -129,6 +129,6 @@ flutter:
 flutter_launcher_icons:
   android: true
   ios: true
-  image_path: "assets/shipper_home.png"
+  image_path: "assets/easy-call-3.png"
   adaptive_icon_background: "#004aad"  # Dành cho Android adaptive icon
-  adaptive_icon_foreground: "assets/shipper_home.png"
+  adaptive_icon_foreground: "assets/easy-call-3.png"
