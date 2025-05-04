@@ -5,7 +5,7 @@ class GetHashkey extends StatelessWidget {
   const GetHashkey({super.key});
 
   Future<String> getZaloHashKey() async {
-    const platform = MethodChannel('zalo_hash_key');
+    const platform = MethodChannel('com.example.zalogin/auth');
     try {
       final hashKey = await platform.invokeMethod<String>('getHashKey');
       print('Zalo Hash Key: $hashKey');

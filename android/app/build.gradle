@@ -51,7 +51,7 @@ android {
     }
 
     sourceSets {
-        main.java.srcDirs += 'src/main/kotlin'
+        main.java.srcDirs += 'src/main/java'
     }
 
     defaultConfig {
@@ -88,7 +88,8 @@ flutter {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    implementation "me.zalo:sdk-core:+"
-    implementation "me.zalo:sdk-auth:+"
-    implementation "me.zalo:sdk-openapi:+"
+    implementation "me.zalo:sdk-core:latest.release"
+    implementation "me.zalo:sdk-auth:latest.release"
+    implementation "me.zalo:sdk-openapi:latest.release"
+
 }
